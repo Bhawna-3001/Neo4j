@@ -1,1 +1,27 @@
 #neo4j commands
+
+CREATE 
+(ketrol_dt:MEDICINE{name:"ketrol_dt", id: 33}),
+(combiflam:MEDICINE{name:"combiflam", id: 36}),
+(crocin:MEDICINE{name:"crocin", id: 28}),
+(meftal:MEDICINE{name:"meftal", id: 22}),
+
+(Ashish:DOCTOR{name: "Dr.Ashish"}),
+(Smita:DOCTOR{name: "Dr.Smita Gupta"}),
+(rajesh:DOCTOR{name: "Dr.Rajesh"}),
+
+(headache:disease{name:"headache",NO:1}),
+(stomachache:disease{name:"stomachache",NO:2}),
+(fever:disease{name:"fever",NO:3}),
+(antinflammatory:disease{name: "antInflammatory",NO:4}),
+
+(ketrol_dt)-[:given_for {dosage: 1}]-> (antinflammatory),
+(combiflam)-[:given_for {dosage: 1}]-> (headache),
+(crocin)-[:given_for {dosage: 1}]-> (headache),
+(meftal)-[:given_for {dosage: 0.5}]-> (stomachache),
+(crocin)-[:given_for {dosage: 1}]-> (fever),
+
+(Ashish)-[:SUGGESTS]->(headache),
+(Smita)-[:SUGGESTS]->(stomachache),
+(rajesh)-[:SUGGESTS]->(fever),
+(Ashish)-[:SUGGESTS]->(antinflammatory);
