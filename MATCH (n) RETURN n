@@ -1,0 +1,152 @@
+//OUTPUT OF THE COMMAND IN THE FORM OF TABLE
+
+{
+  "identity": 11,
+  "labels": [
+    "MEDICINE"
+  ],
+  "properties": {
+    "name": "ketrol_dt",
+    "id": 33
+  },
+  "elementId": "11"
+}
+{
+  "identity": 12,
+  "labels": [
+    "MEDICINE"
+  ],
+  "properties": {
+    "name": "combiflam",
+    "id": 36
+  },
+  "elementId": "12"
+}
+{
+  "identity": 13,
+  "labels": [
+    "MEDICINE"
+  ],
+  "properties": {
+    "name": "crocin",
+    "id": 28
+  },
+  "elementId": "13"
+}
+{
+  "identity": 14,
+  "labels": [
+    "MEDICINE"
+  ],
+  "properties": {
+    "name": "meftal",
+    "id": 22
+  },
+  "elementId": "14"
+}
+{
+  "identity": 15,
+  "labels": [
+    "MEDICINE"
+  ],
+  "properties": {
+    "name": "dolo",
+    "id": 21
+  },
+  "elementId": "15"
+}
+{
+  "identity": 16,
+  "labels": [
+    "DOCTOR"
+  ],
+  "properties": {
+    "name": "Dr.Ashish"
+  },
+  "elementId": "16"
+}
+{
+  "identity": 17,
+  "labels": [
+    "DOCTOR"
+  ],
+  "properties": {
+    "name": "Dr.Smita Gupta"
+  },
+  "elementId": "17"
+}
+{
+  "identity": 18,
+  "labels": [
+    "DOCTOR"
+  ],
+  "properties": {
+    "name": "Dr.Rajesh"
+  },
+  "elementId": "18"
+}
+{
+  "identity": 19,
+  "labels": [
+    "DOCTOR"
+  ],
+  "properties": {
+    "name": "Dr.Mukesh"
+  },
+  "elementId": "19"
+}
+{
+  "identity": 20,
+  "labels": [
+    "disease"
+  ],
+  "properties": {
+    "NO": 1,
+    "name": "headache"
+  },
+  "elementId": "20"
+}
+{
+  "identity": 21,
+  "labels": [
+    "disease"
+  ],
+  "properties": {
+    "NO": 2,
+    "name": "stomachache"
+  },
+  "elementId": "21"
+}
+{
+  "identity": 22,
+  "labels": [
+    "disease"
+  ],
+  "properties": {
+    "NO": 3,
+    "name": "fever"
+  },
+  "elementId": "22"
+}
+{
+  "identity": 23,
+  "labels": [
+    "disease"
+  ],
+  "properties": {
+    "NO": 4,
+    "name": "antInflammatory"
+  },
+  "elementId": "23"
+}
+{
+  "identity": 24,
+  "labels": [
+    "disease"
+  ],
+  "properties": {
+    "NO": 4,
+    "name": "highfever"
+  },
+  "elementId": "24"
+}
